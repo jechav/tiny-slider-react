@@ -1,6 +1,6 @@
 {
   "name": "tiny-slider-react",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "wrapper tiny-slider plugin for react",
   "main": "build/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "build:watch": "babel lib -w -d build",
     "lint": "eslint lib/**; exit 0",
     "lint:watch": "esw -w lib/**",
-    "prepublish": "npm run build",
+    "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
