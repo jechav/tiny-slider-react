@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/jechav/tiny-slider-react#readme",
   "dependencies": {
-    "tiny-slider": "^2.3.1"
+    "tiny-slider": "^2.3.2"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
