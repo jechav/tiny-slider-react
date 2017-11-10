@@ -16,3 +16,26 @@ Original plugin [tiny-slider](https://github.com/ganlanyuan/tiny-slider)
 | onTouchMove        |  [event bind](https://github.com/ganlanyuan/tiny-slider#custom-events) | 
 | onTouchEnd         |  [event bind](https://github.com/ganlanyuan/tiny-slider#custom-events) |d
 
+```js
+import TinySlider from "tiny-slider-react";
+
+const settings = {
+  lazyload: true,
+  nav: false,
+  mouseDrag: true
+};
+
+<TinySlider settings={settings}>
+    {imgs.map((el, index) => (
+      <div key={index} style={{ position: "relative" }}>
+        <img
+          className={`tns-lazy-img`}
+          src={loadingImage}
+          data-src={el}
+          alt=""
+          style={imgStyles}
+        />
+      </div>
+    ))}
+</TinySlider>
+```
