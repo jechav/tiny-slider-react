@@ -2,6 +2,8 @@
 
 Original plugin [tiny-slider](https://github.com/ganlanyuan/tiny-slider)
 
+[demo](https://codesandbox.io/s/5lzk6jrvn)
+
 ## props
 
 |    prop            | decription                                                          |
