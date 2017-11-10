@@ -1,6 +1,6 @@
 {
   "name": "tiny-slider-react",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "wrapper tiny-slider plugin for react",
   "main": "build/index.js",
   "scripts": {
@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/jechav/tiny-slider-react#readme",
   "dependencies": {
-    "ventura-slider": "^1.0.2"
+    "ventura-slider": "^1.0.3"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
