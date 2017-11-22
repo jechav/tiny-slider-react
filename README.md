@@ -2,6 +2,8 @@
 
 Original plugin [tiny-slider](https://github.com/ganlanyuan/tiny-slider)
 
+[demo](https://codesandbox.io/s/5lzk6jrvn)
+
 ## props
 
 |    prop            | decription                                                          |
@@ -38,4 +40,33 @@ const settings = {
       </div>
     ))}
 </TinySlider>
+```
+
+> How to use external buttons for prev & next
+
+```js
+const settings = {
+  lazyload: true,
+  nav: false,
+  mouseDrag: true,
+  controls: false // remove built-in nav buttons
+}
+```
+
+Get the slider from refs:
+
+```js 
+<TinySlider settings={settings} ref={ts => this.ts = ts}>...</TinySlider>
+```
+
+Add onClick for your buttons:
+```js
+<button type="button" onClick={() => this.onGoTo('prev')}>Previous</button>
+<button type="button" onClick={() =>  this.onGoTo('next')}>Next</button>
+```
+
+Add the handler on your component:
+
+```js 
+onGoTo = dir => this.ts.slider.goTo(dir)
 ```
