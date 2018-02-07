@@ -1,6 +1,6 @@
 {
   "name": "tiny-slider-react",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "wrapper tiny-slider plugin for react",
   "main": "build/index.js",
   "scripts": {
