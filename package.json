@@ -4,8 +4,8 @@
   "description": "wrapper tiny-slider plugin for react",
   "main": "build/index.js",
   "scripts": {
-    "build": "babel lib -d build",
-    "build:watch": "babel lib -w -d build",
+    "build": "npx babel lib -d build",
+    "build:watch": "npx babel lib -w -d build",
     "lint": "eslint lib/**; exit 0",
     "lint:watch": "esw -w lib/**",
     "prepare": "npm run build",
@@ -15,7 +15,11 @@
     "type": "git",
     "url": "git+https://github.com/jechav/tiny-slider-react.git"
   },
-  "keywords": ["tiny-slider", "carousel", "react"],
+  "keywords": [
+    "tiny-slider",
+    "carousel",
+    "react"
+  ],
   "author": "Jose Echavez <jose.echavez92@gmail.com>",
   "license": "ISC",
   "bugs": {
@@ -23,19 +27,21 @@
   },
   "homepage": "https://github.com/jechav/tiny-slider-react#readme",
   "dependencies": {
-    "ventura-slider": "2.9.0"
+    "ventura-slider": "2.9.1"
   },
   "jest": {
-    "setupFilesAfterEnv": ["<rootDir>/setupTest.js"],
+    "setupFilesAfterEnv": [
+      "<rootDir>/setupTest.js"
+    ],
     "moduleNameMapper": {
       "\\.(css|less|sass|scss)$": "<rootDir>/config/jest/cssTransform.js"
     }
   },
   "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
     "@babel/preset-react": "^7.0.0",
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
     "babel-eslint": "^10.0.1",
     "babel-jest": "^24.8.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
