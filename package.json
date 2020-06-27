@@ -6,10 +6,9 @@
   "scripts": {
     "build": "npx babel lib -d build",
     "build:watch": "npx babel lib -w -d build",
-    "lint": "eslint lib/**; exit 0",
-    "lint:watch": "esw -w lib/**",
     "prepare": "npm run build",
-    "test": "jest"
+    "lint": "eslint lib/**; exit 0",
+    "lint:watch": "esw -w lib/**"
   },
   "repository": {
     "type": "git",
@@ -29,21 +28,12 @@
   "dependencies": {
     "tiny-slider": "^2.9.2"
   },
-  "jest": {
-    "setupFilesAfterEnv": [
-      "<rootDir>/setupTest.js"
-    ],
-    "moduleNameMapper": {
-      "\\.(css|less|sass|scss)$": "<rootDir>/config/jest/cssTransform.js"
-    }
-  },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
     "@babel/preset-react": "^7.0.0",
     "babel-eslint": "^10.0.1",
-    "babel-jest": "^24.8.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
@@ -57,7 +47,6 @@
     "jest": "^24.8.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-test-renderer": "^16.8.6"
+    "react-dom": "^16.8.6"
   }
 }
