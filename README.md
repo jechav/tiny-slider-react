@@ -7,6 +7,7 @@ Original plugin [tiny-slider](https://github.com/ganlanyuan/tiny-slider)
 > Tiny Slider v1 <=> tiny-slider-react <= v4
 
 [demo](https://tiny-slider-react-tests.netlify.app/)
+[demo2](https://codesandbox.io/s/test-tiny-slider-react-y9gem)
 
 ## props
 
