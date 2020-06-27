@@ -1,6 +1,6 @@
 {
   "name": "tiny-slider-react",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "wrapper tiny-slider plugin for react",
   "main": "build/index.js",
   "scripts": {
@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/jechav/tiny-slider-react#readme",
   "dependencies": {
-    "ventura-slider": "2.9.1"
+    "tiny-slider": "^2.9.2"
   },
   "jest": {
     "setupFilesAfterEnv": [
