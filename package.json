@@ -14,7 +14,11 @@
     "type": "git",
     "url": "git+https://github.com/jechav/tiny-slider-react.git"
   },
-  "keywords": ["tiny-slider", "carousel", "react"],
+  "keywords": [
+    "tiny-slider",
+    "carousel",
+    "react"
+  ],
   "author": "Jose Echavez <jose.echavez92@gmail.com>",
   "license": "ISC",
   "bugs": {
