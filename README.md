@@ -25,6 +25,7 @@ Original plugin [tiny-slider](https://github.com/ganlanyuan/tiny-slider)
 
 ```js
 import TinySlider from "tiny-slider-react";
+import 'tiny-slider/dist/tiny-slider.css';
 
 const settings = {
   lazyload: true,
